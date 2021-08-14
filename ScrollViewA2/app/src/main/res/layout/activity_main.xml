@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Top Button"/>
+
+    <!-- ScrollView는 하나의 뷰만 가질 수 있다. -->
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="400dp"
+            android:background="#FF0000"
+            android:gravity="center"
+            android:text="#FF0000"/>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="400dp"
+            android:background="#00FF00"
+            android:gravity="center"
+            android:text="#00FF00" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="400dp"
+            android:background="#0000FF"
+            android:gravity="center"
+            android:text="#0000FF"/>
+
+    </LinearLayout>
+
+    </ScrollView>
+
+    <!-- *하단에 Button 넣기 중요* -->
+    <!--ScrollVIew의 height이 match_parent이기 때문에 하단의 Button이 안보임-->
+    <!--marginTop = "-50dip" 해줘야해-->
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:layout_marginTop="-50dp"
+        android:gravity="bottom">
+
+        <Button
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Bottom Button"/>
+
+    </LinearLayout>
+</LinearLayout>
+

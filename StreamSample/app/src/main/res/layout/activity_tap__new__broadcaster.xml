@@ -1,0 +1,223 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/activity_tap__new__broadcaster"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/blue_background"
+    tools:context="com.example.streamsample.Tap_New_Broadcaster">
+
+    <!--//back-->
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:background="@drawable/participantscreensback"
+        android:weightSum="10"
+        >
+        <!-- space -->
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="1.5"
+            >
+
+        </LinearLayout>
+
+        <!--   end of space -->
+
+
+        <!-- main linear layout -->
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="6"
+            android:weightSum="2"
+            android:orientation="vertical"
+            android:id="@+id/Participant_Screen_Participants"
+            >
+
+            <!-- inner linear layout  1-->
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="0dp"
+                android:layout_weight="1"
+                android:weightSum="2"
+                android:orientation="horizontal"
+
+                >
+
+                <FrameLayout
+                    android:layout_width="0dp"
+                    android:layout_height="match_parent"
+                    android:layout_weight="1"
+                    >
+
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:background="@drawable/participantpic4"
+                        android:weightSum="5"
+                        android:orientation="vertical"
+                        >
+
+                        <TextView
+                            android:layout_width="match_parent"
+                            android:layout_height="0dp"
+                            android:layout_weight="2"
+                            android:textAlignment="center"
+                            android:text="@string/tap_the_new_host"
+                            android:textSize="28dp"
+                            android:textColor="@color/colorPrimaryDark"/>
+
+                        <FrameLayout
+                            android:layout_width="match_parent"
+                            android:layout_height="0dp"
+                            android:layout_weight="3">
+
+                            <!--//for backround dull-->
+                            <LinearLayout
+                                android:layout_width="match_parent"
+                                android:layout_height="match_parent"
+                                android:background="@color/colorPrimary"
+                                android:alpha="0.2"></LinearLayout>
+
+                            <!--//for content-->
+
+                            <LinearLayout
+                                android:layout_width="match_parent"
+                                android:layout_height="match_parent"
+                                android:weightSum="5"
+                                android:orientation="vertical">
+
+                            <TextView
+                                android:layout_width="match_parent"
+                                android:layout_height="0dp"
+                                android:layout_weight="2"
+                                android:textSize="24dp"
+                                android:textAlignment="center"
+                                android:gravity="center"
+                                android:textColor="@color/colorPrimary"
+                                android:text="@string/or_hang_up"/>
+
+                                <LinearLayout
+                                    android:layout_width="match_parent"
+                                    android:layout_height="0dp"
+                                    android:layout_weight="3"
+                                    android:gravity="center">
+
+                                <ImageButton
+                                    android:layout_width="60dp"
+                                    android:layout_height="60dp"
+                                    />
+                                </LinearLayout>
+                            </LinearLayout>
+                        </FrameLayout>
+                    </LinearLayout>
+
+
+
+
+                </FrameLayout>
+
+                <FrameLayout
+                    android:layout_width="0dp"
+                    android:layout_height="match_parent"
+                    android:layout_weight="1"
+                    >
+
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:background="@drawable/participantpic2"
+                        >
+                    </LinearLayout>
+
+
+                </FrameLayout>
+
+
+            </LinearLayout>
+            <!-- end of inner linear layout  1-->
+
+
+            <!-- inner linear layout  2-->
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="0dp"
+                android:layout_weight="1"
+                android:weightSum="2"
+                android:orientation="horizontal"
+                >
+
+                <FrameLayout
+                    android:layout_width="0dp"
+                    android:layout_height="match_parent"
+                    android:layout_weight="1"
+                    >
+
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:background="@drawable/participantpic3"
+                        >
+                    </LinearLayout>
+
+
+                </FrameLayout>
+
+                <FrameLayout
+                    android:layout_width="0dp"
+                    android:layout_height="match_parent"
+                    android:layout_weight="1"
+                    >
+
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:background="@drawable/participantpic1"
+                        >
+                    </LinearLayout>
+
+                </FrameLayout>
+
+            </LinearLayout>
+            <!-- end of inner linear layout  2-->
+
+
+        </LinearLayout>
+
+        <!-- end of main linear layout -->
+
+
+
+        <!-- space -->
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="2.5"
+            android:weightSum="5"
+            android:gravity="center"
+            >
+
+            <LinearLayout
+                android:layout_width="0dp"
+                android:layout_weight="2"
+                android:layout_height="match_parent"
+                android:background="@color/colorAccent"></LinearLayout>
+        </LinearLayout>
+        <!-- end of space -->
+
+    </LinearLayout>
+
+
+</FrameLayout>

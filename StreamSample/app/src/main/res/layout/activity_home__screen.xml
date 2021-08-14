@@ -1,0 +1,303 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.example.streamsample.Home_Screen">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="@drawable/main_background">
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:weightSum="20"
+        android:orientation="vertical">
+
+    <FrameLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="10">
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="STREAMER"
+            android:id="@+id/quikstreamer"
+            android:textAlignment="center"
+            android:alpha="1.0"
+            android:layout_gravity="center"
+            android:rotation="-40"
+            android:textSize="40sp"
+            android:textColor="@color/quikstreamer"
+            android:layout_marginTop="20dp"
+            />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="QUIK"
+            android:id="@+id/quikstreamer2"
+            android:textAlignment="center"
+            android:alpha="1.0"
+            android:layout_gravity="center"
+            android:rotation="-40"
+            android:textSize="40sp"
+            android:textColor="@color/quikstreamer"
+            android:layout_marginBottom="40dp"
+            android:layout_marginRight="30dp"
+            />
+
+    </FrameLayout>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="6"
+        android:orientation="vertical"
+        android:weightSum="6"
+        >
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="2.5"
+            android:orientation="horizontal"
+            android:weightSum="10">
+
+            <LinearLayout
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_weight="2"></LinearLayout>
+<FrameLayout
+    android:layout_width="0dp"
+    android:layout_height="match_parent"
+    android:layout_weight="8"
+
+    >
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:alpha="0.7"
+                android:background="@drawable/home_public_broadcast_button"
+                >
+            </LinearLayout>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:weightSum="10"
+        android:gravity="center_vertical">
+        <LinearLayout
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="0.4"></LinearLayout>
+
+        <FrameLayout
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="3">
+
+            <ImageButton
+                android:layout_width="55dp"
+                android:layout_height="55dp"
+                android:background="@drawable/circle_button_broadcast"
+                android:layout_gravity="left|center_vertical"
+                android:src="@drawable/group"
+                android:id="@+id/broadcastors"
+                android:elevation="10dp"/>
+
+            
+
+
+        </FrameLayout>
+        <LinearLayout
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="6.6"
+            android:weightSum="2"
+            android:orientation="vertical"
+            >
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="0dp"
+                android:layout_weight="1"
+                android:id="@+id/publicbro"
+                android:text="@string/public_bro"
+                android:gravity="center|center_horizontal"
+                android:textColor="@color/public_brodcast"
+                android:textSize="18dp"
+                />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="0dp"
+                android:layout_weight="1"
+                android:id="@+id/pubbrodcast"
+                android:text="@string/pub_broadcast"
+                android:gravity="center_horizontal"
+                android:textColor="@color/public_brodcast"
+                android:textSize="18dp"
+                />
+            
+        </LinearLayout>
+
+    </LinearLayout>
+    
+
+</FrameLayout>
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="1"></LinearLayout>
+        <!--
+        ADSASDAS
+        ASDASD
+        sd-->
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="2.5"
+            android:orientation="horizontal"
+            android:weightSum="10">
+
+            <FrameLayout
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_weight="8"
+
+                >
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:alpha="0.7"
+                    android:background="@drawable/home_start_broadcast"
+                    >
+                </LinearLayout>
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:weightSum="10"
+                    android:gravity="center_vertical">
+
+                    <LinearLayout
+                        android:layout_width="0dp"
+                        android:layout_height="match_parent"
+                        android:layout_weight="6.6"
+                        android:weightSum="2"
+                        android:orientation="vertical"
+                        >
+                        <TextView
+                            android:layout_width="match_parent"
+                            android:layout_height="0dp"
+                            android:layout_weight="1"
+                            android:id="@+id/startbro"
+                            android:text="@string/start_bro"
+                            android:gravity="center|center_horizontal"
+                            android:textColor="@color/new_broadcast_text"
+                            android:textSize="18dp"
+                            />
+
+                        <TextView
+                            android:layout_width="match_parent"
+                            android:layout_height="0dp"
+                            android:layout_weight="1"
+                            android:id="@+id/strbroadcast"
+                            android:text="@string/str_broadcast"
+                            android:gravity="center_horizontal"
+                            android:textColor="@color/new_broadcast_text"
+                            android:textSize="18dp"
+                            />
+
+                    </LinearLayout>
+
+
+                    <FrameLayout
+                        android:layout_width="0dp"
+                        android:layout_height="match_parent"
+                        android:layout_weight="3">
+
+                        <ImageButton
+                            android:layout_width="60dp"
+                            android:layout_height="60dp"
+                            android:background="@drawable/circle_button_camcoder"
+                            android:layout_gravity="right|center_vertical"
+                            android:src="@drawable/broadcast"
+                            android:id="@+id/newbroadcast"
+                            android:elevation="10dp"/>
+
+
+
+
+                    </FrameLayout>
+
+                    <LinearLayout
+                        android:layout_width="0dp"
+                        android:layout_height="match_parent"
+                        android:layout_weight="0.4"></LinearLayout>
+
+
+                </LinearLayout>
+
+
+            </FrameLayout>
+
+            <LinearLayout
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_weight="2"></LinearLayout>
+
+        </LinearLayout>
+
+
+        <!--
+                ADSASDAS
+                ASDASD
+                sd-->
+
+
+    </LinearLayout>
+
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="4"
+        android:gravity="bottom"
+        >
+
+        <FrameLayout
+            android:layout_width="match_parent"
+            android:layout_height="30dp"
+            android:gravity="center"
+            >
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:background="@color/black"
+                android:alpha="0.4"
+                android:orientation="horizontal"
+                android:id="@+id/website">
+
+            </LinearLayout>
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:textColor="@color/splash_footer"
+                android:text="QUICKSTREAMER.COM"
+                android:gravity="center|center_vertical"
+                android:textSize="10dp"
+                android:id="@+id/footer"
+                android:layout_gravity="center" />
+
+        </FrameLayout>
+
+    </RelativeLayout>
+    </LinearLayout>
+
+</FrameLayout>

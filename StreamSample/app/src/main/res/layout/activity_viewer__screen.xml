@@ -1,0 +1,273 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:weightSum="20"
+    android:orientation="vertical"
+    android:background="@drawable/participantscreensback"
+    tools:context="com.example.streamsample.Viewer_Screen">
+<!--//Row One-->
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="6.3"
+        android:weightSum="2"
+        android:background="@color/new_broadcast_text">
+
+        <FrameLayout
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:id="@+id/mainbroadcasterFrame"
+            >
+
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:background="@drawable/participantpic1"
+                >
+            </LinearLayout>
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center|center_vertical"
+                android:layout_marginTop="20dp"
+                android:textAlignment="center"
+                android:text="(Main Broadcaster)"
+                android:textSize="22dp"
+                android:textColor="@color/main_broadcaster"/>
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="60dp"
+                android:layout_gravity="center|center_vertical"
+                android:text="@string/live_video"
+                android:textColor="@color/grey"
+                android:textSize="28dp" />
+
+
+        </FrameLayout>
+
+        <FrameLayout
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            >
+
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:background="@drawable/participantpic2"
+                >
+            </LinearLayout>
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center|center_vertical"
+                android:layout_marginTop="20dp"
+                android:text="@string/participant"
+                android:textSize="22dp"
+                android:textColor="@color/main_broadcaster"/>
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="50dp"
+                android:layout_gravity="center|center_vertical"
+                android:text="@string/live_video"
+                android:textColor="@color/grey"
+                android:textSize="28dp"
+                />
+        </FrameLayout>
+
+    </LinearLayout>
+
+    <!--//Row2-->
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="6.3"
+        android:weightSum="2"
+        android:background="@color/splash_footer">
+
+        <FrameLayout
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:id="@+id/participantframe"
+            >
+
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:background="@drawable/participantpic2"
+                >
+            </LinearLayout>
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center|center_vertical"
+                android:layout_marginTop="20dp"
+                android:text="@string/participant"
+                android:textSize="22dp"
+                android:textColor="@color/main_broadcaster"/>
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="50dp"
+                android:layout_gravity="center|center_vertical"
+                android:text="@string/live_video"
+                android:textColor="@color/grey"
+                android:textSize="28dp"
+                />
+        </FrameLayout>
+
+        <FrameLayout
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            >
+
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:background="@drawable/participantpic2"
+                >
+            </LinearLayout>
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center|center_vertical"
+                android:layout_marginTop="20dp"
+                android:text="@string/participant"
+                android:textSize="22dp"
+                android:textColor="@color/main_broadcaster"/>
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="50dp"
+                android:layout_gravity="center|center_vertical"
+                android:text="@string/live_video"
+                android:textColor="@color/grey"
+                android:textSize="28dp"
+                />
+        </FrameLayout>
+
+    </LinearLayout>
+<!--//Row3-->
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="6.4"
+        android:weightSum="2"
+        android:background="@color/public_brodcast">
+
+        <FrameLayout
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:id="@+id/participantframe4"
+            >
+
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:background="@drawable/participantpic2"
+                >
+            </LinearLayout>
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center|center_vertical"
+                android:layout_marginTop="20dp"
+                android:text="@string/participant"
+                android:textSize="22dp"
+                android:textColor="@color/main_broadcaster"/>
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="50dp"
+                android:layout_gravity="center|center_vertical"
+                android:text="@string/live_video"
+                android:textColor="@color/grey"
+                android:textSize="28dp"
+                />
+        </FrameLayout>
+
+        <FrameLayout
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            >
+
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:background="@drawable/participantpic2"
+                >
+            </LinearLayout>
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center|center_vertical"
+                android:layout_marginTop="20dp"
+                android:text="@string/participant"
+                android:textSize="22dp"
+                android:textColor="@color/main_broadcaster"/>
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="50dp"
+                android:layout_gravity="center|center_vertical"
+                android:text="@string/live_video"
+                android:textColor="@color/grey"
+                android:textSize="28dp"
+                />
+        </FrameLayout>
+    </LinearLayout>
+<!--//Row4 add-->
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1"
+        android:gravity="bottom"
+        >
+
+        <FrameLayout
+            android:layout_width="match_parent"
+            android:layout_height="30dp"
+            android:gravity="center"
+            >
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:background="@color/black"
+                android:alpha="0.4"
+                android:orientation="horizontal"
+                android:id="@+id/website4">
+
+            </LinearLayout>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:textColor="@color/splash_footer"
+                android:text="QUICKSTREAMER.COM"
+                android:gravity="center|center_vertical"
+                android:textSize="10dp"
+                android:id="@+id/footer"
+                android:layout_gravity="center" />
+
+        </FrameLayout>
+
+    </RelativeLayout>
+
+
+</LinearLayout>

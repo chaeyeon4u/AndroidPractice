@@ -1,0 +1,4 @@
+<resources>
+    <string name="app_name">AlertDialogDemoA1</string>
+    <string name="firstString">My First Dialog</string>
+</resources>

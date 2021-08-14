@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+
+    <!--한줄로만 표시됨-->
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:singleLine="true"/>
+
+    <!-- hint사용 -->
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="원하는 글자를 입력하세요"/>
+
+    <!--password 표시 (***) -->
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:password="true"
+        android:hint="please push the password"/>
+
+    <!--숫자만 입력-->
+    <!-- 이외의 inputType 속성 : text, textCapCharacters(대문자),
+    textEmailAddress(이메일주소), number, phone(전화번호),
+    datetime(날짜&시간), date, time -->
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:inputType="number"/>
+
+    <!--입력되어있는 텍스트 수정불가-->
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:editable="false"
+        android:text="수정 불가"/>
+
+    <!--XML에서 속성으로 EditText의 최대 입력 글자 수 제한하기-->
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:maxLength="10"
+        android:hint="최대 글자 수 10"/>
+
+
+</LinearLayout>

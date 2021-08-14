@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="alredy">User Alerady Registerd</string>
+    <string name="email_failed">Unable To Send Verification Email Try Again.</string>
+</resources>

@@ -1,0 +1,149 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/activity_broadcast__multi_one_menu"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/blue_background"
+    tools:context="com.example.streamsample.Broadcast_Multi_One_Menu">
+    <!--//back-->
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:weightSum="4"
+        android:orientation="vertical">
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="1"></LinearLayout>
+
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="2"
+            android:paddingLeft="40dp"
+            android:paddingRight="40dp">
+            <FrameLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent">
+
+                <ImageView
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:src="@drawable/participantpic4"/>
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center|center_vertical"
+                    android:layout_marginTop="20dp"
+                    android:textAlignment="center"
+                    android:text="(Live self-facing camera)"
+                    android:textSize="18dp"
+                    android:textColor="@color/black"/>
+
+            </FrameLayout>
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="1"></LinearLayout>
+
+    </LinearLayout>
+
+
+    <!--///fromt menu-->
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:weightSum="20"
+        android:orientation="vertical">
+
+        <!--///spacing-->
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="2"></LinearLayout>
+
+        <!--//first 2 menu options-->
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="4"
+            android:weightSum="2">
+
+            <LinearLayout
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:background="@color/colorPrimary"
+                android:alpha="0.5"
+                android:layout_weight="1"></LinearLayout>
+            <LinearLayout
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:background="@color/new_broadcast_text"
+                android:alpha="0.5"
+                android:layout_weight="1"></LinearLayout>
+
+        </LinearLayout>
+
+        <!--//second 2 menu options-->
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="4"
+            android:weightSum="2">
+
+            <LinearLayout
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:background="@color/colorPrimaryDark"
+                android:alpha="0.5"
+                android:layout_weight="1"></LinearLayout>
+            <LinearLayout
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:background="@color/broadcast_button_background"
+                android:alpha="0.5"
+                android:layout_weight="1"></LinearLayout>
+
+        </LinearLayout>
+        <!--//last menu option-->
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="4"
+            android:background="@color/colorPrimary"
+            android:alpha="0.5">
+
+
+
+        </LinearLayout>
+        <!--///stop broadcasting-->
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="4"
+            android:weightSum="10">
+
+            <TextView
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_weight="7"
+                android:paddingRight="10dp"
+                android:text="@string/stop_broadcsat"
+                android:gravity="center|right"
+                android:textSize="24dp"/>
+
+            <ImageButton
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_weight="3"/>
+
+        </LinearLayout>
+
+    </LinearLayout>
+</FrameLayout>

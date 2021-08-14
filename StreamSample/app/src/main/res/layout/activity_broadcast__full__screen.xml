@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/activity_broadcast__full__screen"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/participantpic4"
+    tools:context="com.example.streamsample.Broadcast_Full_Screen">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center|center_vertical"
+        android:layout_marginTop="20dp"
+        android:textAlignment="center"
+        android:text="(Live self-facing camera)"
+        android:textSize="22dp"
+        android:textColor="@color/black"/>
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="60dp"
+        android:layout_gravity="center|center_vertical"
+        android:text="@string/live_video"
+        android:textColor="@color/colorPrimary"
+        android:textSize="28dp" />
+
+</FrameLayout>

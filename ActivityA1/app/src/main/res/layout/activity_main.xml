@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+
+    <!-- 1. AndroidManifest에서 액션바 제거-->
+    <!--액션바 내 마음대로 customizing 가능-->
+
+    <Button
+        android:id="@+id/exitButton"
+        android:layout_width="100dp"
+        android:layout_height="wrap_content"
+        android:text="exit Activity"/>
+
+</RelativeLayout>

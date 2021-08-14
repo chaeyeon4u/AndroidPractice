@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--RelativeLayout을 이용하여 -->
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_above="@id/bottomButton">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical">
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="400dp"
+                android:background="#FF0000"
+                android:gravity="center"
+                android:text="RED" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="400dp"
+                android:text="GREEN"
+                android:background="#00FF00"
+                android:gravity="center"/>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="400dp"
+                android:text="BLUE"
+                android:background="#0000FF"
+                android:gravity="center"/>
+        </LinearLayout>
+
+    </ScrollView>
+
+    <Button
+        android:id="@+id/bottomButton"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="BOTTON BUTTON"
+        android:layout_alignParentBottom="true"/>
+
+
+</RelativeLayout>

@@ -1,0 +1,87 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<!--LinearLayout
+    android:orientation="vertical"로 생성-->
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+
+    <!--Edit Text 생성-->
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"/>
+
+    <!--Button 생성-->
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Button"/>
+
+    <!--버튼에 drawableLeft, drawableTop, drawableRight, drawableBotton으로 이미지 추가-->
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:drawableLeft="@drawable/ic_launcher_foreground"
+        android:text="Button" />
+
+    <!--버튼의 텍스트 위치-->
+    <!--gravity 속성 left, top, right, bottom, center, center_vertical, center_horizontal, -->
+    <!--"|"(파이프)로 속성 연결 가능-->
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="60dp"
+        android:gravity="bottom|center_horizontal"
+        android:text="아래 가운데"/>
+
+    <!--버튼에 색상 넣기(background)-->
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="hello"
+        android:background="#4641D9"
+        android:textColor="#FFFFFF"/>
+
+    <!--버튼 background에 이미지 넣기-->
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="hello"
+        android:background="@drawable/ic_launcher_foreground"
+        android:textColor="#4641D9"/>
+
+    <!--투명 버튼 만들기-->
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="투명버튼"
+        android:background="@android:color/transparent"/>
+
+    <!--버튼의 #8자리로 투명도 조절"#투명도(A)+R+G+B"-->
+    <!-- A는 클수록 불투명-->
+    <!-- 1.불투명 버튼-->
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="불투명버튼"
+        android:background="#FF0000FF"/>
+
+    <!-- 2.살짝 투명한 버튼-->
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="반투명버튼"
+        android:background="#440000FF"/>
+
+    <!--버튼의 selector는 다양한 이벤트에 따라 뷰의 모양을 변경할 수 있다.-->
+    <!-- 1. 이벤트 발생 x  2. 포커스를 가졌을 때  3. 버튼을 클릭했을 때 -->
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:background="@drawable/button_selector"
+        android:text="SELECTOR"/>
+
+</LinearLayout>

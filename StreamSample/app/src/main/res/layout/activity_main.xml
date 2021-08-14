@@ -1,0 +1,154 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.example.streamsample.MainActivity"
+
+    android:background="#006600"
+    android:orientation="vertical"
+    android:weightSum="20"
+    >
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="6"
+        android:gravity="center"
+        >
+        <TextView
+            android:id="@+id/logo"
+            android:layout_width="300dp"
+            android:lineSpacingExtra="5dp"
+            android:layout_height="wrap_content"
+            android:textColor="#fff"
+            android:textSize="44sp"
+            android:textAlignment="center"
+            android:elevation="40dp"
+            android:text="QUIK STREAMER"
+            android:translationZ="20dp"
+            android:layout_marginTop="25dp"/>
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="10"
+        android:paddingLeft="20dp"
+        android:paddingRight="20dp"
+        android:paddingTop="5dp"
+        android:orientation="vertical"
+        >
+
+        <EditText
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:maxLines="1"
+            android:maxLength="30"
+            android:padding="10dp"
+            android:id="@+id/name"
+            android:alpha="0.9"
+
+            android:hint=" Name"
+            android:background="@drawable/edit_text"
+            android:drawableLeft="@drawable/name24dp"
+            />
+        <EditText
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="20dp"
+            android:padding="10dp"
+            android:maxLength="16"
+            android:maxLines="1"
+            android:inputType="phone"
+            android:id="@+id/phone"
+            android:alpha="0.9"
+            android:hint=" Phone   (Example:760-987-1245)"
+            android:background="@drawable/edit_text"
+            android:drawableLeft="@drawable/phoneregister"
+            />
+        <EditText
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="20dp"
+            android:padding="10dp"
+            android:maxLines="1"
+            android:inputType="textWebEmailAddress"
+            android:id="@+id/email"
+            android:alpha="0.9"
+            android:hint="Email (Example:abc@xyz.com)"
+            android:drawablePadding="5dp"
+            android:background="@drawable/edit_text"
+            android:drawableLeft="@drawable/ic_mail_outline_black_24px"
+            />
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="3"
+        android:paddingLeft="20dp"
+        android:paddingRight="20dp"
+        android:paddingTop="5dp"
+        android:orientation="vertical"
+        android:paddingBottom="5dp">
+
+
+        <Button
+            android:layout_width="match_parent"
+            android:id="@+id/register"
+            android:layout_height="wrap_content"
+            android:textColor="#ffffff"
+            android:fontFamily="sans-serif"
+
+
+            android:background="@drawable/button"
+            android:drawableRight="@drawable/ic_arrow_forward_black_24dp"
+
+            android:text="Join Now"
+
+            android:includeFontPadding="true"
+            android:textAllCaps="false"
+            android:padding="15dp"
+            android:paddingTop="10dp"
+            android:paddingBottom="10dp"
+            android:gravity="left|center_vertical"
+            android:alpha="0.9"
+            android:elevation="10dp"
+
+            android:textSize="16dp"
+            />
+
+
+    </LinearLayout>
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1"
+        android:gravity="bottom"
+        >
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="30dp"
+            android:background="@color/colorPrimaryDark"
+            android:gravity="center">
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:textColor="#ffffff"
+                android:text="\u00a9 QUIK STREAMER"
+                android:gravity="center|center_vertical"
+                android:textSize="9dp"
+                android:alpha="1.0"
+                android:id="@+id/footer"
+                />
+
+        </LinearLayout>
+
+    </RelativeLayout>
+
+</LinearLayout>

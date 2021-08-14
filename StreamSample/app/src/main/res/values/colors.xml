@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#3F51B5</color>
+    <color name="colorPrimaryDark">#006600</color>
+    <color name="colorAccent">#FF4081</color>
+    <color name="register_button">#D0402F</color>
+    <color name="white">#ffffff</color>
+    <color name="black">#000</color>
+    <color name="quikstreamer">#010f62</color>
+    <color name="loading">#0000FF</color>
+    <color name="splash_footer">#00FF9D</color>
+    <color name="splash_notificationbar">#A3A3FF</color>
+    <color name="public_broadcast_button">#4B538A</color>
+    <color name="public_brodcast">#CBFF45</color>
+    <color name="new_brodcast">#94D564</color>
+    <color name="new_broadcast_text">#044504</color>
+    <color name="broadcast_button_background">#FFFF2A</color>
+    <color name="invitefriends">#7F007F</color>
+    <color name="backborder">#9F9DA2</color>
+    <color name="public_private">#31004A</color>
+    <color name="i_change_my_mind">#FD0603</color>
+    <color name="main_broadcaster">#FFFFA7</color>
+    <color name="grey">#cacaca</color>
+</resources>

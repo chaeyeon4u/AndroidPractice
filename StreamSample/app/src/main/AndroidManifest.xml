@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.example.streamsample">
+
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.READ_PHONE_STATE" />
+    <uses-permission android:name="android.permission.CAMERA" />
+
+    <application
+    android:allowBackup="true"
+    android:icon="@mipmap/ic_launcher"
+    android:label="@string/app_name"
+    android:supportsRtl="true"
+    android:theme="@style/AppTheme">
+    <activity
+        android:name=".MainActivity"
+        android:screenOrientation="portrait" />
+    <activity
+        android:name=".Splash_Screen"
+        android:screenOrientation="portrait">
+    </activity>
+    <activity
+        android:name=".Home_Screen"
+        android:screenOrientation="portrait" />
+    <activity
+        android:name=".Broadcastors"
+        android:screenOrientation="portrait" />
+    <activity
+        android:name=".New_Broadcast"
+        android:screenOrientation="portrait" />
+    <activity
+        android:name=".Viewer_Screen"
+        android:screenOrientation="portrait" />
+    <activity
+        android:name=".Viewer_Screens_menu"
+        android:screenOrientation="portrait" />
+    <activity
+        android:name=".Viewer_Screen_2"
+        android:screenOrientation="portrait" />
+    <activity
+        android:name=".Participants_Screen"
+        android:screenOrientation="portrait" />
+    <activity
+        android:name=".Participants_Screen_Menu"
+        android:screenOrientation="portrait" />
+    <activity android:name=".Viewer_Screen2_Menu" />
+    <activity android:name=".Broadcast_Full_Screen" />
+    <activity android:name=".Website" />
+    <activity android:name=".Broadcast_Full_Screen_Menu" />
+    <activity android:name=".Broadcast_Full_Screen_Menu_off" />
+    <activity android:name=".Broadcast_Full_Screen_out" />
+    <activity android:name=".Broadcast_Full_Screen_Out_Menu" />
+    <activity android:name=".Broadcast_Full_Screen_Out_Menu_Off" />
+    <activity android:name=".Broadcast_Multi_One" />
+    <activity android:name=".Broadcast_Multi_One_Menu" />
+    <activity android:name=".Broadcast_Multi_Two" />
+    <activity android:name=".Broadcast_Multi_Two_menu" />
+    <activity android:name=".Broadcast_Multi_Four" />
+    <activity android:name=".Broadcast_Multi_Four_Menu" />
+    <activity android:name=".Broadcast_Multi_ControlMenu" />
+    <activity android:name=".Broadcast_Multi_Remove_Confirm" />
+    <activity android:name=".Tap_New_Broadcaster" />
+    <activity android:name=".Hang_Up_Confirm" />
+    <activity android:name=".Otp_Verification"></activity>
+    <activity android:name=".FirstNoDataActivity">
+        <intent-filter>
+            <action android:name="android.intent.action.MAIN" />
+
+            <category android:name="android.intent.category.LAUNCHER" />
+        </intent-filter>
+    </activity>
+</application>
+
+</manifest>

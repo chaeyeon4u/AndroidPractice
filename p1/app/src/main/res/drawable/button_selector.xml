@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<selector
+    xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <!-- android:state_pressed,
+    android:state_focused,
+    android:state_selected,
+    android:state_checkable,
+    android:state_checked,
+    android:state_enabled(사용할 수 있는 상태일 때, 터치나 클릭 이벤트 등을 받을 수 있는 상태일 때) -->
+
+    <item
+        android:drawable="@drawable/button_focussed"
+        android:state_focused="true"
+        android:state_pressed="false"/>
+
+    <item
+        android:drawable="@drawable/button_focussedandpressed"
+        android:state_focused="true"
+        android:state_pressed="true"/>
+
+    <item
+        android:drawable="@drawable/button_pressed"
+        android:state_focused="false"
+        android:state_pressed="true"/>
+
+    <item
+        android:drawable="@drawable/button_default"/>
+
+</selector>

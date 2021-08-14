@@ -1,0 +1,303 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:weightSum="20"
+    android:orientation="vertical"
+    android:background="@drawable/participantscreensback"
+    tools:context="com.example.streamsample.Viewer_Screens_menu">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:weightSum="20"
+        android:orientation="vertical"
+        >
+
+        <!--//Row One-->
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="6.3"
+            android:weightSum="2"
+            android:background="@color/new_broadcast_text">
+
+            <FrameLayout
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                >
+
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:background="@drawable/participantpic1"
+                    >
+                </LinearLayout>
+
+
+            </FrameLayout>
+
+            <FrameLayout
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                >
+
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:background="@drawable/participantpic2"
+                    >
+                </LinearLayout>
+
+            </FrameLayout>
+
+        </LinearLayout>
+
+        <!--//Row2-->
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="6.3"
+            android:weightSum="2"
+            android:background="@color/splash_footer">
+
+            <FrameLayout
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                >
+
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:background="@drawable/participantpic2"
+                    >
+                </LinearLayout>
+
+
+            </FrameLayout>
+
+            <FrameLayout
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                >
+
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:background="@drawable/participantpic2"
+                    >
+                </LinearLayout>
+
+
+            </FrameLayout>
+
+        </LinearLayout>
+        <!--//Row3-->
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="6.4"
+            android:weightSum="2"
+            android:background="@color/public_brodcast">
+
+            <FrameLayout
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                >
+
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:background="@drawable/participantpic2"
+                    >
+                </LinearLayout>
+
+            </FrameLayout>
+
+            <FrameLayout
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                >
+
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:background="@drawable/participantpic2"
+                    >
+                </LinearLayout>
+
+            </FrameLayout>
+        </LinearLayout>
+<!--//Footer-->
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="1"
+            android:gravity="bottom"
+            >
+
+            <FrameLayout
+                android:layout_width="match_parent"
+                android:layout_height="30dp"
+                android:gravity="center"
+                >
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:background="@color/black"
+                    android:alpha="0.4">
+
+                </LinearLayout>
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="match_parent"
+                    android:textColor="@color/splash_footer"
+                    android:text="QUICKSTREAMER.COM"
+                    android:gravity="center|center_vertical"
+                    android:textSize="10dp"
+                    android:id="@+id/footer"
+                    android:layout_gravity="center" />
+
+            </FrameLayout>
+
+        </RelativeLayout>
+
+
+
+
+
+    </LinearLayout>
+
+<LinearLayout
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/colorPrimary"
+    android:alpha="0.4"></LinearLayout>
+
+    <!--main-->
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:weightSum="20"
+        >
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="6.5"
+            ></LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="4.5"
+            android:weightSum="2"
+            android:orientation="horizontal">
+
+            <FrameLayout
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_weight="1">
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:alpha="0.4"></LinearLayout>
+
+                <ImageButton
+                    android:layout_width="100dp"
+                    android:layout_height="100dp"
+                    android:background="@drawable/menuoff_shape"
+                    android:src="@drawable/menuoff"
+                    android:layout_gravity="center_horizontal|center"
+                    android:id="@+id/menuoff"
+                    />
+            </FrameLayout>
+
+            <FrameLayout
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_weight="1">
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:alpha="0.4"></LinearLayout>
+
+                <ImageButton
+                    android:layout_width="100dp"
+                    android:layout_height="100dp"
+                    android:background="@drawable/menuoff_shape"
+                    android:src="@drawable/invitefriends"
+                    android:layout_gravity="center_horizontal|center"
+                    />
+            </FrameLayout>
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="3"
+
+            >
+            <FrameLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                >
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:alpha="0.4"></LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:weightSum="10">
+
+                <TextView
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:text="@string/start_a_new_broadcast"
+                android:textSize="22dp"
+                android:layout_weight="7"
+                    android:textColor="@color/black"
+                android:layout_gravity="center|center_horizontal"
+                    android:gravity="center"/>
+
+                    <ImageButton
+                        android:layout_width="70dp"
+                        android:layout_height="70dp"
+                        android:src="@drawable/broadcast"
+                        android:background="@drawable/circle_button_camcoder"
+                        android:layout_gravity="center"
+                        android:id="@+id/Viewer_menu_startbro"/>
+
+                </LinearLayout>
+
+
+
+            </FrameLayout>
+
+        </LinearLayout>
+
+
+    </LinearLayout>
+
+</FrameLayout>

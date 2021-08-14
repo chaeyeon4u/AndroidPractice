@@ -1,0 +1,8 @@
+<resources>
+    <string name="app_name">DialogLoginA1</string>
+    <string name ="loginString">LOGIN</string>
+    <string name = "id">ID</string>
+    <string name = "input_id">아이디를 입력해주세요.</string>
+    <string name = "pw">Password</string>
+    <string name = "input_pw">비밀번호를 입력해주세요.</string>
+</resources>

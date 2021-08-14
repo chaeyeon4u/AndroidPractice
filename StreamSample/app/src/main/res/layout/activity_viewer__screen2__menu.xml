@@ -1,0 +1,297 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/participantscreensback"
+    tools:context="com.example.streamsample.Viewer_Screen2_Menu"
+    >
+
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:weightSum="10"
+        >
+        <!-- 1st linear layout -->
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="5.8"
+            >
+
+            <FrameLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent">
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:background="@drawable/participantpic4"
+                    >
+
+                </LinearLayout>
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:textSize="22dp"
+                    android:text="(Live Broadcast)"
+                    android:layout_gravity="top|center"
+                    />
+
+            </FrameLayout>
+
+
+
+
+        </LinearLayout>
+
+        <!--  end of 1st linear layout -->
+
+
+        <!-- 2nd linear layout -->
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="3"
+            android:weightSum="2"
+            android:orientation="horizontal"
+            >
+
+            <FrameLayout
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                >
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:background="@drawable/participantpic1"
+                    >
+                </LinearLayout>
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:textSize="22dp"
+                    android:text="(Live video)"
+                    android:textColor="#ffffff"
+                    android:layout_gravity="top|center"
+                    />
+
+
+            </FrameLayout>
+
+            <FrameLayout
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                >
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:background="@drawable/participantpic2"
+                    >
+                </LinearLayout>
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:textSize="22dp"
+                    android:textColor="#ffffff"
+                    android:text="(Live video)"
+                    android:layout_gravity="top|center"
+                    />
+
+            </FrameLayout>
+
+
+        </LinearLayout>
+
+        <!-- end of 2nd linear layout -->
+
+
+        <!-- 3rd linear layout -->
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="1.2"
+            android:background="#56aace"
+            android:gravity="center"
+            >
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textSize="22dp"
+                android:textColor="#ffffff"
+                android:text="Ad Banner"
+
+                />
+
+        </LinearLayout>
+
+        <!-- end of 3rd linear layout -->
+
+
+
+    </LinearLayout>
+
+    <!--//functionality/-->
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="@color/colorPrimary"
+        android:alpha="0.5"></LinearLayout>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:weightSum="20"
+        android:orientation="vertical">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_weight="4"
+            android:layout_height="0dp"></LinearLayout>
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_weight="5"
+            android:layout_height="0dp">
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:gravity="center"
+                android:text="To Join This Group Click here"
+                android:id="@+id/ViewerScree2_join"/>
+
+            <!--<FrameLayout-->
+                <!--android:layout_width="match_parent"-->
+                <!--android:layout_height="match_parent">-->
+
+                <!--<LinearLayout-->
+                    <!--android:layout_width="match_parent"-->
+                    <!--android:layout_height="match_parent"-->
+                    <!--android:alpha="0.4"></LinearLayout>-->
+
+                <!--<ImageButton-->
+                    <!--android:layout_width="200dp"-->
+                    <!--android:layout_height="150dp"-->
+                    <!--android:src="@drawable/leavegroup"-->
+                    <!--android:layout_gravity="center"-->
+                    <!--android:background="@drawable/leavegroup_shape"/>-->
+
+            <!--</FrameLayout>-->
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="4.5"
+            android:weightSum="2"
+            android:orientation="horizontal">
+
+            <FrameLayout
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_weight="1">
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:alpha="0.4"></LinearLayout>
+
+                <ImageButton
+                    android:layout_width="100dp"
+                    android:layout_height="100dp"
+                    android:background="@drawable/menuoff_shape"
+                    android:src="@drawable/menuoff"
+                    android:layout_gravity="center_horizontal|center"
+                    android:id="@+id/ViewerScreen2_menuoff"
+                    />
+            </FrameLayout>
+
+            <FrameLayout
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_weight="1">
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:alpha="0.4"></LinearLayout>
+
+                <ImageButton
+                    android:layout_width="100dp"
+                    android:layout_height="100dp"
+                    android:background="@drawable/menuoff_shape"
+                    android:src="@drawable/invitefriends"
+                    android:layout_gravity="center_horizontal|center"
+                    />
+            </FrameLayout>
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="3"
+
+            >
+            <FrameLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                >
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:alpha="0.4"></LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:weightSum="10">
+
+                    <TextView
+                        android:layout_width="0dp"
+                        android:layout_height="wrap_content"
+                        android:text="@string/start_a_new_broadcast"
+                        android:textSize="22dp"
+                        android:layout_weight="7"
+                        android:textColor="@color/black"
+                        android:layout_gravity="center|center_horizontal"
+                        android:gravity="center"/>
+
+                    <ImageButton
+                        android:layout_width="70dp"
+                        android:layout_height="70dp"
+                        android:src="@drawable/broadcast"
+                        android:background="@drawable/circle_button_camcoder"
+                        android:layout_gravity="center"
+                        android:id="@+id/ViewerScreen2_menu_startbro"/>
+
+                </LinearLayout>
+
+
+
+            </FrameLayout>
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_weight="3"
+            android:layout_height="0dp"></LinearLayout>
+
+
+
+    </LinearLayout>
+
+
+
+
+
+</FrameLayout>

@@ -1,0 +1,249 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/participantscreensback"
+    tools:context="com.example.streamsample.Participants_Screen_Menu"
+    >
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:weightSum="10">
+
+    <!-- space -->
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1.5"
+        >
+
+    </LinearLayout>
+
+    <!--   end of space -->
+
+
+    <!-- main linear layout -->
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="6"
+        android:weightSum="2"
+        android:orientation="vertical"
+        >
+
+        <!-- inner linear layout  1-->
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="1"
+            android:weightSum="2"
+            android:orientation="horizontal"
+
+            >
+
+            <FrameLayout
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                >
+
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:background="@drawable/participantpic1"
+                    >
+                </LinearLayout>
+
+
+            </FrameLayout>
+
+            <FrameLayout
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                >
+
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:background="@drawable/participantpic2"
+                    >
+                </LinearLayout>
+
+            </FrameLayout>
+
+
+        </LinearLayout>
+        <!-- end of inner linear layout  1-->
+
+
+        <!-- inner linear layout  2-->
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="1"
+            android:weightSum="2"
+            android:orientation="horizontal"
+            >
+
+            <FrameLayout
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                >
+
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:background="@drawable/participantpic3"
+                    >
+                </LinearLayout>
+
+            </FrameLayout>
+
+            <FrameLayout
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                >
+
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:background="@drawable/participantpic4"
+                    >
+                </LinearLayout>
+
+
+            </FrameLayout>
+
+        </LinearLayout>
+        <!-- end of inner linear layout  2-->
+
+
+    </LinearLayout>
+
+    <!-- end of main linear layout -->
+
+
+
+    <!-- space -->
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="2.5"
+        >
+    </LinearLayout>
+    </LinearLayout>
+    <!-- end of space -->
+
+    <!--//main-->
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="@color/colorPrimary"
+        android:alpha="0.5"></LinearLayout>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:weightSum="20"
+        android:orientation="vertical">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_weight="4"
+            android:layout_height="0dp"></LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_weight="4"
+            android:layout_height="0dp">
+
+            <FrameLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent">
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:alpha="0.4"></LinearLayout>
+
+                <ImageButton
+                    android:layout_width="95dp"
+                    android:layout_height="95dp"
+                    android:src="@drawable/invitefriends"
+                    android:layout_gravity="center"
+                    android:elevation="20dp"/>
+
+
+            </FrameLayout>
+
+        </LinearLayout>
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_weight="4"
+            android:layout_height="0dp">
+
+            <FrameLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent">
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:alpha="0.4"></LinearLayout>
+
+                <ImageButton
+                    android:layout_width="100dp"
+                    android:layout_height="100dp"
+                    android:src="@drawable/menuoff"
+                    android:background="@drawable/menuoff_shape"
+                    android:layout_gravity="center"
+                    android:id="@+id/Participants_Screen_menuoff"/>
+            </FrameLayout>
+        </LinearLayout>
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_weight="5"
+            android:layout_height="0dp">
+
+            <FrameLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent">
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:alpha="0.4"></LinearLayout>
+
+                <ImageButton
+                    android:layout_width="200dp"
+                    android:layout_height="150dp"
+                    android:src="@drawable/leavegroup"
+                    android:layout_gravity="center"
+                    android:background="@drawable/leavegroup_shape"
+                    android:id="@+id/Participants_Screen_leave"/>
+
+            </FrameLayout>
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_weight="3"
+            android:layout_height="0dp"></LinearLayout>
+
+
+
+    </LinearLayout>
+
+</FrameLayout>

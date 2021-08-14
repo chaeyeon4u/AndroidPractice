@@ -1,0 +1,125 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/activity_broadcast__full__screen_out_menu"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.example.streamsample.Broadcast_Full_Screen_Out_Menu">
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="@drawable/tree_background"
+        ></LinearLayout>
+    <!--//front-->
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:weightSum="20"
+        android:orientation="vertical">
+
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="1"
+            android:layout_gravity="center_horizontal"
+            android:layout_marginTop="20dp"
+            android:textAlignment="center"
+            android:text="(Live self-facing camera)"
+            android:textSize="22dp"
+            android:textColor="@color/black"/>
+        <!--//first 2 menu options-->
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="4"
+            android:weightSum="2">
+
+            <LinearLayout
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:id="@+id/FullScreen_out_invite"
+                android:background="@color/colorPrimary"
+                android:alpha="0.5"
+                android:orientation="horizontal"></LinearLayout>
+            <LinearLayout
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:orientation="horizontal"
+                android:background="@color/register_button"
+                android:alpha="0.5"
+                android:id="@+id/out_multione"></LinearLayout>
+
+        </LinearLayout>
+
+        <!--//second 2 menu options-->
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="4"
+            android:weightSum="2">
+
+            <LinearLayout
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:orientation="horizontal"
+                android:background="@color/broadcast_button_background"
+                android:alpha="0.5"
+                android:id="@+id/out_cameraorientation"></LinearLayout>
+            <LinearLayout
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:orientation="horizontal"
+                android:background="@color/new_broadcast_text"
+                android:alpha="0.5"
+                android:id="@+id/FullScreen_out_menu"></LinearLayout>
+
+        </LinearLayout>
+        <!--//last menu option-->
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="4"
+            android:id="@+id/FullScreen_out_mute"
+            android:orientation="horizontal"
+            android:background="@color/colorPrimary"
+            android:alpha="0.5"
+            >
+
+
+
+        </LinearLayout>
+        <!--///stop broadcasting-->
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="4"
+            android:weightSum="10">
+
+            <TextView
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_weight="7"
+                android:paddingRight="10dp"
+                android:text="@string/stop_broadcsat"
+                android:gravity="center|right"
+                android:textSize="24dp"
+                android:textColor="@color/white"/>
+
+            <ImageButton
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_weight="3"
+                android:id="@+id/FullScreen_out_stopbro"/>
+
+        </LinearLayout>
+
+    </LinearLayout>
+
+
+
+</FrameLayout>

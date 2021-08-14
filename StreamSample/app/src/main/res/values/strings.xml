@@ -1,0 +1,34 @@
+<resources>
+    <string name="app_name">Quik Streamer</string>
+    <string name="register_button">Join Now</string>
+    <string name="loading1">Loading.</string>
+    <string name="loading2">Loading..</string>
+    <string name="loading3">Loading...</string>
+    <string name="mvp">MVP Alpha V1.2</string>
+    <string name="pending_patent">Patent Pending</string>
+    <string name="public_bro">Public</string>
+    <string name="pub_broadcast">Broadcasters</string>
+    <string name="start_bro">Start a New</string>
+    <string name="str_broadcast">Broadcast</string>
+    <string name="broadcaste_now">Broadcast Now!</string>
+    <string name="invite_friends">Invite Your Friends!</string>
+    <string name="broadcastors_text">There Are Currently No Other Public Broadcastors</string>
+    <string name="ready_to_broadcast">Ready To Broadcast!!</string>
+    <string name="choose">Choose:</string>
+    <string name="publictext">Public</string>
+    <string name="privatetext">Private</string>
+    <string name="ortext">or</string>
+    <string name="i_change_my_mind">I Changed My Mind</string>
+    <string name="live_video">(Live video)</string>
+    <string name="main_broadcaster">(Main Broadcaster)</string>
+    <string name="participant">(Participant)</string>
+    <string name="new_particpant_just_joined">(New Participant Just Joined)</string>
+    <string name="Live_Self_facing_camera">(Live Self Facing Camera)</string>
+    <string name="start_a_new_broadcast">Start a New Broadcast</string>
+    <string name="stop_broadcsat">Stop Broadcasting</string>
+    <string name="are_you_sure">Are You Sure ?</string>
+    <string name="tap_the_new_host">Tap the new host</string>
+    <string name="or_hang_up">Or Hang Up</string>
+    <string name="otp_text">Enter the code sent to your mail</string>
+    <string name="next">Next</string>
+</resources>

@@ -1,0 +1,310 @@
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/activity_broadcast__multi__control_menu"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/blue_background"
+    tools:context="com.example.streamsample.Broadcast_Multi_ControlMenu">
+
+    <!--//back-->
+    <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:background="@drawable/participantscreensback"
+        android:weightSum="10"
+        >
+        <!-- space -->
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="1.5"
+            >
+
+        </LinearLayout>
+
+        <!--   end of space -->
+
+
+        <!-- main linear layout -->
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="6"
+            android:weightSum="2"
+            android:orientation="vertical"
+            android:id="@+id/Participant_Screen_Participants"
+            >
+
+            <!-- inner linear layout  1-->
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="0dp"
+                android:layout_weight="1"
+                android:weightSum="2"
+                android:orientation="horizontal"
+
+                >
+
+                <FrameLayout
+                    android:layout_width="0dp"
+                    android:layout_height="match_parent"
+                    android:layout_weight="1"
+                    >
+
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:background="@drawable/participantpic4"
+                        >
+                    </LinearLayout>
+
+
+                </FrameLayout>
+
+                <FrameLayout
+                    android:layout_width="0dp"
+                    android:layout_height="match_parent"
+                    android:layout_weight="1"
+                    >
+
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:background="@drawable/participantpic2"
+                        >
+                    </LinearLayout>
+
+
+                </FrameLayout>
+
+
+            </LinearLayout>
+            <!-- end of inner linear layout  1-->
+
+
+            <!-- inner linear layout  2-->
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="0dp"
+                android:layout_weight="1"
+                android:weightSum="2"
+                android:orientation="horizontal"
+                >
+
+                <FrameLayout
+                    android:layout_width="0dp"
+                    android:layout_height="match_parent"
+                    android:layout_weight="1"
+                    >
+
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:background="@drawable/participantpic3"
+                        >
+                    </LinearLayout>
+
+
+                </FrameLayout>
+
+                <FrameLayout
+                    android:layout_width="0dp"
+                    android:layout_height="match_parent"
+                    android:layout_weight="1"
+                    >
+
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:background="@drawable/participantpic1"
+                        >
+                    </LinearLayout>
+
+                </FrameLayout>
+
+            </LinearLayout>
+            <!-- end of inner linear layout  2-->
+
+
+        </LinearLayout>
+
+        <!-- end of main linear layout -->
+
+
+
+        <!-- space -->
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="2.5"
+            >
+        </LinearLayout>
+        <!-- end of space -->
+
+    </LinearLayout>
+
+    ///front
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:weightSum="20"
+        android:orientation="vertical">
+
+        <!--//spacing-->
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="3"
+            ></LinearLayout>
+
+        <!--//first2 menu-->
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="6"
+            android:weightSum="2">
+            <LinearLayout
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:background="@color/broadcast_button_background"
+                android:alpha="0.7"
+                android:weightSum="5"
+                android:orientation="vertical"
+                android:padding="5dp">
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="0dp"
+                    android:layout_weight="2"
+                    android:background="@color/i_change_my_mind"
+                    android:alpha="0.4"
+                    ></LinearLayout>
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="0dp"
+                    android:layout_weight="3"
+                    android:background="@color/colorPrimary"
+                    android:alpha="0.4"
+                    android:orientation="horizontal"
+                    android:id="@+id/multi_control_menuoff"
+                    ></LinearLayout>
+
+
+            </LinearLayout>
+            <LinearLayout
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:background="@color/broadcast_button_background"
+                android:alpha="0.7"
+                android:weightSum="5"
+                android:orientation="vertical"
+                android:padding="5dp">
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="0dp"
+                    android:layout_weight="2"
+                    android:background="@color/i_change_my_mind"
+                    android:alpha="0.4"
+                    ></LinearLayout>
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="0dp"
+                    android:layout_weight="3"
+                    android:background="@color/colorPrimary"
+                    android:alpha="0.4"
+                    android:orientation="horizontal"
+                    android:id="@+id/multi_control_remove1"
+                    ></LinearLayout>
+
+            </LinearLayout>
+
+        </LinearLayout>
+
+        <!--//last2 menu-->
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="6">
+
+            <LinearLayout
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:background="@color/broadcast_button_background"
+                android:alpha="0.7"
+                android:weightSum="5"
+                android:orientation="vertical"
+                android:padding="5dp">
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="0dp"
+                    android:layout_weight="2"
+                    android:background="@color/i_change_my_mind"
+                    android:alpha="0.4"
+                    ></LinearLayout>
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="0dp"
+                    android:layout_weight="3"
+                    android:background="@color/colorPrimary"
+                    android:alpha="0.4"
+                    android:orientation="horizontal"
+                    android:id="@+id/multi_control_remove2"
+                    ></LinearLayout>
+
+            </LinearLayout>
+            <LinearLayout
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:background="@color/broadcast_button_background"
+                android:alpha="0.7"
+                android:weightSum="5"
+                android:orientation="vertical"
+                android:padding="5dp">
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="0dp"
+                    android:layout_weight="2"
+                    android:background="@color/i_change_my_mind"
+                    android:alpha="0.4"
+                    ></LinearLayout>
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="0dp"
+                    android:layout_weight="3"
+                    android:background="@color/colorPrimary"
+                    android:alpha="0.4"
+                    android:orientation="horizontal"
+                    android:id="@+id/multi_control_remove3"
+                    ></LinearLayout>
+
+            </LinearLayout>
+
+        </LinearLayout>
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="5"></LinearLayout>
+
+
+
+
+
+    </LinearLayout>
+
+</FrameLayout>

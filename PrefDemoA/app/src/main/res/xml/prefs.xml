@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen
+    xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <EditTextPreference
+        android:dialogTitle="장치 이름"
+        android:key="device"
+        android:summary="장치 이름을 설정하세요."
+        android:title="장치 이름"/>
+
+    <Preference
+        android:key="mobile"
+        android:summary="애플리케이션 제작자 사이트에 방문하세요"
+        android:title="제작자 사이트 보기"/>
+
+</PreferenceScreen>

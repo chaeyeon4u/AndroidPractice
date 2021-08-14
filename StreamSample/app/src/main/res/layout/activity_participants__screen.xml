@@ -1,0 +1,223 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@drawable/participantscreensback"
+    tools:context="com.example.streamsample.Participants_Screen"
+    android:weightSum="10"
+    >
+    <!-- space -->
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1.5"
+        >
+
+    </LinearLayout>
+
+    <!--   end of space -->
+
+
+    <!-- main linear layout -->
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="6"
+        android:weightSum="2"
+        android:orientation="vertical"
+        android:id="@+id/Participant_Screen_Participants"
+        >
+
+        <!-- inner linear layout  1-->
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="1"
+            android:weightSum="2"
+            android:orientation="horizontal"
+
+            >
+
+            <FrameLayout
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                >
+
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:background="@drawable/participantpic1"
+                    >
+                </LinearLayout>
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center|center_vertical"
+                    android:layout_marginTop="20dp"
+                    android:textAlignment="center"
+                    android:text="(Main Broadcaster)"
+                    android:textSize="22dp"
+                    android:textColor="@color/main_broadcaster"/>
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="60dp"
+                    android:layout_gravity="center|center_vertical"
+                    android:text="@string/live_video"
+                    android:textColor="@color/grey"
+                    android:textSize="28dp" />
+
+
+            </FrameLayout>
+
+            <FrameLayout
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                >
+
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:background="@drawable/participantpic2"
+                    >
+                </LinearLayout>
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center|center_vertical"
+                    android:layout_marginTop="20dp"
+                    android:text="@string/participant"
+                    android:textSize="22dp"
+                    android:textColor="@color/main_broadcaster"/>
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="50dp"
+                    android:layout_gravity="center|center_vertical"
+                    android:text="@string/live_video"
+                    android:textColor="@color/grey"
+                    android:textSize="28dp"
+                    />
+            </FrameLayout>
+
+
+        </LinearLayout>
+        <!-- end of inner linear layout  1-->
+
+
+        <!-- inner linear layout  2-->
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="1"
+            android:weightSum="2"
+            android:orientation="horizontal"
+            >
+
+            <FrameLayout
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                >
+
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:background="@drawable/participantpic3"
+                    >
+                </LinearLayout>
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center|center_vertical"
+                    android:layout_marginTop="20dp"
+                    android:text="@string/participant"
+                    android:textSize="22dp"
+                    android:textColor="@color/main_broadcaster"/>
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="50dp"
+                    android:layout_gravity="center|center_vertical"
+                    android:text="@string/live_video"
+                    android:textColor="@color/grey"
+                    android:textSize="28dp" />
+
+            </FrameLayout>
+
+            <FrameLayout
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                >
+
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:background="@drawable/participantpic4"
+                    >
+                </LinearLayout>
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="55dp"
+                    android:layout_gravity="center|center_vertical"
+                    android:textSize="28dp"
+                    android:text="@string/live_video"
+                    android:textColor="@color/grey"
+                    />
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="10dp"
+                    android:textAlignment="center"
+                    android:layout_gravity="top|center_vertical"
+                    android:textSize="22dp"
+                    android:text="@string/new_particpant_just_joined"
+                    android:textColor="@color/i_change_my_mind"
+                    />
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="15dp"
+                    android:textAlignment="center"
+                    android:layout_gravity="center|center_vertical"
+                    android:textSize="22dp"
+                    android:text="@string/Live_Self_facing_camera"
+                    android:textColor="@color/black"
+                    />
+
+            </FrameLayout>
+
+        </LinearLayout>
+        <!-- end of inner linear layout  2-->
+
+
+    </LinearLayout>
+
+    <!-- end of main linear layout -->
+
+
+
+    <!-- space -->
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="2.5"
+        >
+    </LinearLayout>
+    <!-- end of space -->
+
+</LinearLayout>
