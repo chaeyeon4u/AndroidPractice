@@ -13,7 +13,7 @@ Native Android_with Java
 좋아요기능, 줄거리 요약 기능, 댓글 작성 기능
 
 [AndroidPractice2.mp4](video/AndroidPractice2.mp4)
-<image width="60%"src = "https://user-images.githubusercontent.com/55488114/129442142-e61b477c-9588-422f-9136-a8c9a9ce1e93.mp4">
+<image width="60%" src = "https://user-images.githubusercontent.com/55488114/129442142-e61b477c-9588-422f-9136-a8c9a9ce1e93.mp4">
 
 ### Navigation Drawer
 
