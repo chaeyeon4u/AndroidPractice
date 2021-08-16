@@ -42,13 +42,13 @@ Android10 이전 버전에서는 backgroundService를 이용할 수 있었지만
 
 **Android 10 이전 MediaProjection 동작**
 
-![Untitled](Foreground-Service%20%E1%84%80%E1%85%A9%E1%86%BC%E1%84%87%E1%85%AE%200d1806a712fd407d85f4baf8b0090069/Untitled.png)
+![Untitled](images/Untitled.png)
 
 Activity에서 MediaProjection의 권한을 획득하고, 그 권환을 이용하여 MediaProjection을 생성하고 처리할 수 있었다..
 
 **Android 10 이후 MediaProjection 동작**
 
-![Untitled](Foreground-Service%20%E1%84%80%E1%85%A9%E1%86%BC%E1%84%87%E1%85%AE%200d1806a712fd407d85f4baf8b0090069/Untitled%201.png)
+![Untitled](images/Untitled%201.png)
 
 Activity에서는 권한을 획득하고,
 
