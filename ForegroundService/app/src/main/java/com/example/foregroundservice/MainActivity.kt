@@ -7,16 +7,9 @@ import android.view.View
 
 class MainActivity : AppCompatActivity() {
 
-    protected override fun onCreate(savedInstanceState: Bundle?) {
+    override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
         setContentView(R.layout.activity_main)
     }
-
-    public fun onStartService(view: View){
-        var intent = Intent(this, MyService.class)
-        startActivity(intent)
-    }
-
-
 
 }
