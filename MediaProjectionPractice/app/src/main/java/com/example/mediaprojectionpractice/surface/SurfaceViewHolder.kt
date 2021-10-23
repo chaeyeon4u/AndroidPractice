@@ -1,4 +1,4 @@
-package tech.thdev.mediaprojectionexample.ui.surface
+package com.example.mediaprojectionpractice.surface
 
 import android.view.SurfaceHolder
 

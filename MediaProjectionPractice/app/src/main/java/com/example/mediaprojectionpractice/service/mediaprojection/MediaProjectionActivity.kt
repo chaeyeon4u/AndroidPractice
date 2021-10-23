@@ -1,4 +1,4 @@
-package tech.thdev.mediaprojectionexample.ui.mediaprojection
+package com.example.mediaprojectionpractice.service.mediaprojection
 
 import android.content.Context
 import android.content.Intent
